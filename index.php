@@ -21,7 +21,7 @@
                 */
                 
                 //tic tac toe
-                if (!isset($_GET['board'])) { echo 'no board'; exit;}
+                if (!isset($_GET['board'])) { echo 'Add \'?board=\' to the URL and start playing'; exit;}
                 $position= $_GET['board'];
                 $squares= str_split($position);
                 function winner($token, $position) {
