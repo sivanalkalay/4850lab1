@@ -2,7 +2,7 @@
 <html> 
     
             <?php
-                $name= 'Jim';
+                /*$name= 'Jim';
                 $what= 'geek';
                 $level=10;
                 echo 'Hi, my name is '.$name. ', and I am a level '.$level.' '. $what;
@@ -18,7 +18,7 @@
                     $total= $hoursworked * $rate;
                 }
                 echo ($total >0) ? 'You owe me ' .$total : "You're welcome";
-                
+                */
                 
                 //tic tac toe
                 $position= $_GET['board'];
@@ -60,7 +60,10 @@
                     return $won;                          
                 }
             }
-                
+             
+            if (winner('x',$squares)) echo 'You win.';
+            else if (winner('o', $squares)) echo 'I win.';
+            else echo 'No winner yet.';
             ?>
 
 </html>
