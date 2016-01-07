@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html> 
-    
+    <body>
             <?php
                 /*$name= 'Jim';
                 $what= 'geek';
@@ -72,5 +72,5 @@
             
             
             ?>
-
+    </body>
 </html>
